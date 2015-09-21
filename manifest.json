@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Timewasting Notifier",
+  "description": "Notifies you when you've spent more than 20 minutes on any of your favorite time-wasting websites",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "clock.png",
+    "default_popup": "popup.html",
+    "default_title": "Check me out!",
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+  ]
+}
